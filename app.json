@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/A-d-i-t-h-y-a-n/hermit-md",
+  "repository": "https://github.com/confronter/Dragon-md",
   "stack": "container",
   "env": {
     "SESSION_ID": {
@@ -91,9 +91,9 @@
       "value": "true"
     }
   },
-  "addons": [
-    {
-      "plan": "heroku-postgresql"
-    }
+    "addons": [{ "plan": "heroku-postgresql:essential-1" }],
+  "buildpacks": [
+    { "url": "https://github.com/heroku/heroku-buildpack-nodejs#latest" },
+    { "url": "https://github.com/carlosdommor/heroku-buildpack-ffmpeg-latest" }
   ]
 }
