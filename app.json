@@ -2,10 +2,10 @@
   "name": "𝐃𝚪𝚫𝐆𝚯𝚴 𝚳𝐃",
   "description": " Whatsapp bot.",
   "keywords": [
-    "whatsapp bot"
+    "Best whatsapp bot made by Confronter"
   ],
   "repository": "https://github.com/confronter/DRAGON-MD",
-  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
+  "logo": "https://telegra.ph/file/2f8b1ef450d2fbc783d7d.jpg",
   "stack": "container",
   "env": {
     "SESSION_ID": {
