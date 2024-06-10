@@ -16,7 +16,7 @@ Function({
 	type: 'info'
 }, async (message, match, client) => {
 	var start = new Date().getTime();
-	var msg = await message.reply('*Pinging...*');
+	var msg = await message.reply('*𝗗𝗿𝗮𝗴𝗼𝗻 𝗽𝗶𝗻𝗴𝗶𝗻𝗴...*');
 	var end = new Date().getTime();
 	var responseTime = end - start;
 	await msg.edit(`*Pong!*\nLatency: ${responseTime}ms`);
