@@ -1,5 +1,5 @@
 {
-  "name": "hermit-md",
+  "name": "𝐃𝚪𝚫𝐆𝚯𝚴 𝚳𝐃",
   "description": " Whatsapp bot.",
   "keywords": [
     "whatsapp bot"
@@ -13,9 +13,9 @@
       "value": ""
     },
     "SUDO": {
-      "description": "owner number of the bot",
+      "description": "owner number of the bot ex 254796283064,254111766934",
       "required": true,
-      "value": "null"
+      "value": ""
     },
     "MODE": {
       "description": "mode public or private",
@@ -48,17 +48,17 @@
     "BOT_INFO": {
       "description": "botname;ownername;ownernumber;image url",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;972528277755;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "𝕮𝖔𝖓𝖋𝖗𝖔𝖓𝖙𝖊𝖗;𝕱𝖗𝖆𝖓𝖐;254111766934;https://telegra.ph/file/6bad7a0c0ee5340ace1dd.jpg"
     },
     "STICKER_DATA": {
       "description": "sticker package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ"
+      "value": "𝕮𝖔𝖓𝖋𝖗𝖔𝖓𝖙𝖊𝖗"
     },
     "AUDIO_DATA": {
       "description": "audio package name",
       "required": true,
-      "value": "ʜᴇʀᴍɪᴛ;ᴀᴅɪᴛʜyᴀɴ;https://i.imgur.com/pbNNWfM.jpeg"
+      "value": "𝕮𝖔𝖓𝖋𝖗𝖔𝖓𝖙𝖊𝖗;𝕱𝖗𝖆𝖓𝖐;https://telegra.ph/file/2f8b1ef450d2fbc783d7d.jpg"
     },
     "READ_MSG": {
       "description": "Read all messages",
