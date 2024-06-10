@@ -5,6 +5,7 @@
     "whatsapp bot"
   ],
   "repository": "https://github.com/confronter/DRAGON-MD",
+  "logo": "https://telegra.ph/file/d6dab955fbaa42fce2280.jpg",
   "stack": "container",
   "env": {
     "SESSION_ID": {
