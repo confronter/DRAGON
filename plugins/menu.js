@@ -41,26 +41,26 @@ Function({
 			commandslist[command.type].push((match.length >= 3 ? (HANDLER + mmatch) : command.pattern).trim())
 		}
 	})
-	let msg = `╭━━━〔 ${BOT_INFO.split(";")[0]} ⁩〕━━━┈⊷
-┃✵╭──────────────
-┃✵│ Owner : ${BOT_INFO.split(";")[1]}
-┃✵│ User : ${m.pushName.replace( /[\r\n]+/gm, "" )}
-┃✵│ Plugins : ${commands.length}
-┃✵│ Runtime : ${runtime(process.uptime())}
-┃✵│ Mode : ${MODE}
-┃✵│ Platform : ${os.platform()}
-┃✵│ Ram : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
-┃✵│ Version : ${VERSION}
-┃✵╰──────────────
-╰━━━━━━━━━━━━━━━┈⊷
+	let msg = `┏━━━▓ ${BOT_INFO.split(";")[0]} ▓━━━━━⁩
+🎭✵╭──────────────
+🪓✵ 𝕺𝖜𝖓𝖊𝖗 : ${BOT_INFO.split(";")[1]}
+💀✵ 𝖀𝖘𝖊𝖗 : ${m.pushName.replace( /[\r\n]+/gm, "" )}
+🦅✵ 𝕻𝖑𝖚𝖌𝖎𝖓𝖘 : ${commands.length}
+🌵✵ 𝕽𝖚𝖓𝖙𝖎𝖒𝖊 : ${runtime(process.uptime())}
+🔑✵ 𝕸𝖔𝖉𝖊 : ${MODE}
+💫✵ 𝕻𝖑𝖆𝖙𝖋𝖔𝖗𝖒 : ${os.platform()}
+🦎✵ 𝕽𝖆𝖒 : ${formatp(os.totalmem() - os.freemem())} / ${formatp(os.totalmem())}
+🕸✵ 𝖁𝖊𝖗𝖘𝖎𝖔𝖓 : ${VERSION}
+📌✵╰──────────────
+╰━━🕸𝐒𝐜 𝐏𝐫𝐢𝐯𝐚𝐭𝐞 𝚋𝚢 𝙲𝙾𝙽𝙵𝚁𝙾𝙽𝚃𝙴𝚁🕸
 `
 	for (const command in commandslist) {
-		msg += `╭─────────────┈⊷
+		msg += `╭╼╼╼╼╼╼--╼╼╼
 `
 		msg += `│ 「 *${await Fancy(command.toUpperCase(), 32)}* 」 `
-		msg += `╰┬────────────┈⊷\n┌┤\n`
+		msg += `╰┃-----━━━━❴❖\n┌┤\n`
 		for (const plugin of commandslist[command])
-			msg += `││◦➛ ${await Fancy(plugin.toLowerCase(), 32)}\n`
+			msg += `🐉 ${await Fancy(plugin.toLowerCase(), 32)}\n`
 		msg += `│╰────────────┈⊷
 `
 		msg += `╰─────────────┈⊷
