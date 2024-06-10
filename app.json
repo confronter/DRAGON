@@ -4,7 +4,7 @@
   "keywords": [
     "whatsapp bot"
   ],
-  "repository": "https://github.com/confronter/Dragon-Md-V1",
+  "repository": "https://github.com/confronter/Dragon-Md",
   "stack": "container",
   "env": {
     "SESSION_ID": {
